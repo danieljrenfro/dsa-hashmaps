@@ -114,3 +114,6 @@ class HashMap {
     return hash >>> 0;
   }
 }
+
+HashMap.MAX_LOAD_RATIO = 0.5;
+HashMap.SIZE_RATIO = 3;
